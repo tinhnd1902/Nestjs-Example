@@ -34,7 +34,6 @@ export class UsersController {
     UppercaseInterceptor,
   )
   postUsers(@Body() data: CreateUserDto) {
-    console.log(3, data);
     return data;
   }
 
